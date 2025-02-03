@@ -1,0 +1,11 @@
+/* 
+  LocalizedStrings.strings
+  demoTicTac
+
+  Created by PavelMac on 2/02/2025.
+  Copyright © 2025 Monitoreal – Smart Monitoring LLC. All rights reserved.
+*/
+
+"player_start_button" = "Player Start / New game";
+"phone_start_button" = "Phone Start first";
+"show_leaderboard" = "Show Leaderboard";

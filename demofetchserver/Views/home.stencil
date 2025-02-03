@@ -1,0 +1,30 @@
+{% extends "master.stencil" %}
+{% block title %} Leaderboard {% endblock %}
+
+{% block body %}
+<h1>Leaderboard</h1>
+</p>
+
+<h3>
+            <span style="display:inline-block; width: 30;"></span>
+Position    <span style="display:inline-block; width: 40;"></span>
+Name        <span style="display:inline-block; width: 40;"></span>
+Time        <span style="display:inline-block; width: 40;"></span>
+Moves
+</h3>
+</p>
+
+<ol type="none" >
+{% for score in leaderboard %}
+    <li > &emsp;  {{ score.0 }}.  <span style="display:inline-block; width: 80;"></span>
+            {{ score.1 }}    <span style="display:inline-block; width: 60;"></span>
+            {{ score.2 }}   <span style="display:inline-block; width: 70;"></span>
+            {{ score.3 }}
+    </li>
+{% endfor %}
+</ol>
+{% endblock %}
+
+{% block title %} Welcome {% endblock %}
+
+
